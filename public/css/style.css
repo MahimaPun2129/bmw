@@ -1,0 +1,280 @@
+
+      /* font */
+
+      body {
+        font-family: "Poppins", serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+
+        
+          user-select: none !important; 
+          -webkit-user-select: none !important; 
+          -moz-user-select: none !important; 
+          -ms-user-select: none !important; 
+        
+      }
+
+
+      .carousel-caption-top {
+        top: 20% !important;
+        bottom: auto !important;
+        width: 40% !important;
+    }
+
+    .dropdown-item.active{
+      background-color: #000000 !important;
+      color: white !important;
+    }
+
+    
+
+
+      /* banner */
+
+
+      .video-container {
+			position: relative !important;
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			height: 91vh !important;
+			overflow: hidden !important;
+		}
+
+		.videoo {
+			position: absolute !important;
+			z-index: 10 !important;
+			width: 100% !important;
+			height: 100vh !important;
+			max-width: none !important;
+		}
+
+      .carousel-indicators [data-bs-target] {
+        box-sizing: border-box !important;
+        text-indent: 0% !important;
+
+        background-color: aliceblue !important;
+        height: 120px !important;
+        border-radius: 20px !important;
+      }
+
+      .carousel-indicators .active {
+        border: 3px solid red !important;
+       
+        background-color: aliceblue !important;
+        
+      }
+
+      .hide{
+        display: none !important;
+      }
+      .hide2{
+        display: none !important;
+      }
+
+      .carousel-indicators .active .hide{
+        display: block !important;
+        color: rgb(218, 0, 0) !important;
+ 
+      }
+      
+
+
+      .carousel-indicators .not .hide{
+        display: block !important;
+        color: rgb(0, 0, 0) !important;
+ 
+      }
+
+      .btn-danger{
+        background-color: #E62415 !important;
+      }
+      .arrow{
+        position: relative !important;
+        display:inline !important;
+      }
+
+
+      .scro{
+        position: sticky !important;
+        top: 50px !important;
+      }
+      
+      .accordion-button:not(.collapsed){
+        background-color: #E62415 !important;
+        color: #F4F4F4 !important;
+      }
+
+      .accordion-button:focus{
+        box-shadow: none !important;
+        
+
+
+      }
+
+      .accordion-button::before{
+        background-image: url("../images/plus\ \(2\).png") !important;
+      }
+
+      .accordion-button::after {
+  background-image: url("../images/plus\ \(1\).png") !important;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/plus\ \(2\).png") !important;
+}
+
+      
+
+      @media only screen and (max-width: 768px){
+        
+        .mobile{
+          height: 0% !important;
+        }
+
+        .mobile-fonts{
+          font-size: 23px !important;
+          text-align: center !important;
+          padding:20px !important;
+        }
+
+
+       
+
+        .mobile-fonts-heading{
+          font-size: 35px !important;
+          text-align: start !important;
+        }
+
+        .mobile-fonts-heading-sub{
+          font-size: 20px !important;
+          text-align: start !important;
+        }
+
+        .carousel-indicators {
+        position: absolute !important;
+        top:450px !important;
+       
+
+        
+        
+
+        
+        
+      }
+      .carousel-indicators button{
+        width: 100% !important;
+        
+      }
+
+
+    .carousel-indicators {
+    padding: 0 10px !important; /* Add padding for better UX */
+  }
+
+  .mobile-image{
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  .mobile-image-2{
+    width: 280px !important;
+    height: auto !important;
+  }
+  .section-6{
+    position: absolute !important;
+    left: 0px !important;
+    top: 10px !important;
+  }
+
+  .video-2{
+    height: 200px !important;
+  }
+
+  .video-container {
+			position: relative !important;
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			height:350px !important;
+			overflow: hidden !important;
+		}
+    .banner-bg{
+      background-color: #000000 !important;
+    }
+
+    .carousel-caption-top {
+      top: 0% !important;
+      bottom: auto !important;
+      width: 40% !important;
+  }
+
+ 
+      }
+     
+
+      
+
+      
+
+
+     
+      .carousel-indicators [data-bs-target].active button {
+      }
+
+      .carousel-indicators {
+        position: absolute !important;
+        top: 730px !important;
+
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+      }
+
+
+
+      /* chatgpt */
+
+      .carousel-indicators {
+  display: flex !important;
+  overflow-x:auto !important; /* Enable horizontal scrolling */
+scroll-padding: 300px !important;
+   /* Prevent indicators from wrapping */
+  scroll-behavior: smooth !important; /* Smooth scrolling for better UX */
+}
+
+.carousel-indicators button {
+  flex-shrink: 0; /* Prevent shrinking of buttons */
+  margin: 0 5px !important; /* Add spacing between indicators */
+}
+
+.carousel-indicators::-webkit-scrollbar {
+  display: none !important; /* Hide scrollbars for cleaner appearance */
+}
+
+    
+/* banner end  */
+
+
+
+
+      .white {
+        color: white !important;
+      }
+
+      .now:hover {
+        color: red !important;
+      }
+
+      .active {
+        color: red !important;
+      }
+
+      .navbar-collapse{
+        flex-grow:0 !important;
+      }
+
+      .accordion-item{
+        border: none !important;
+      }
+    
